@@ -11,7 +11,7 @@ export default function Projects() {
               <h3 className="text-xl font-semibold text-foreground">{project.title}</h3>
               <p className="text-muted text-sm">{project.description}</p>
               <div className="flex flex-wrap gap-2 mt-auto">
-                {project.tech.map((t) => (
+                {project.tech.map((t: string) => (
                   <span key={t} className="text-xs bg-background text-accent-light px-2 py-1 rounded">
                     {t}
                   </span>
