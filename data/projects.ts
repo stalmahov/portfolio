@@ -9,7 +9,7 @@ export const projects: Project[] = [
     tech: ["Python", "Django", "PostgreSQL"],
     github: "https://github.com/username/example-project",
     live: "",
-    images: [],
+    images: ["/projects/example-project/1.png"],
   },
   {
     slug: "portfolio",
